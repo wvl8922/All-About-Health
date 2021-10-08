@@ -1,16 +1,16 @@
 {
-  "name": "login-sever", 
+  "name": "login-sever",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "bin": {
     "login-sever": "WWW.js"
   },
-  "dependencies": { 
+  "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
   },
-  "devDependencies": {}, 
+  "devDependencies": {},
   "scripts": {
     "start": "node ./bin/WWW.js",
     "test": "echo \"Error: no test specified\" && exit 1"
