@@ -1,6 +1,6 @@
 'use strict'
 
-// DOM -> Docum\ent Object Model
+// DOM -> Document Object Model
 
 const id = document.querySelector("#id");
 const password = document.querySelector("#password");
