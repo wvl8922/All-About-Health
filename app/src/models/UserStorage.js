@@ -17,6 +17,18 @@ static getUsers(...fields){
     }, {});
     return newUsers;
 }
+
+static getUserInfo(id){
+    const user = this.#users;
+    const idx = user.id.indexOf(id);
+    const usersKeys = Object.keys(user);
+    const userInfo = usersKeys.reduce((newUser, info) => {
+        newUser[info] = user[info][idx];
+        return newUser;
+    }, {});
+
+    return userInfo;
+}
 }
 
 module.exports = UserStorage;
